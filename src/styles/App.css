@@ -1,12 +1,38 @@
-h1 {
-    color: #27aedb;
+.heading{
     text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
+}
+ul {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left img{
+    width: 100px;
+    border: 2px solid tomato;
+}
+.right .top{
+    display: flex;
     align-items: center;
+justify-content: space-between;
+}
+.right .top p{
+    font-weight: bold;
+    color: goldenrod;
+}
+.container{
+    padding: 50px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.container .item{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    column-gap: 7rem;
+}
+.container .item .right .top{
+    border-bottom: 1px solid black;
 }
